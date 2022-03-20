@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(235deg, green 10%, yellowgreen 90%);
+  font-family: "Oswald", sans-serif;
+}
+.container {
+  background: whitesmoke;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: blueviolet;
+  padding: 25px;
+}
+.topo {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+  font-size: 36px;
+}
+
+.fotoPerfil {
+  border-radius: 400px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px rgba(3, 3, 8, 8);
+}
+
+.titulo {
+  margin-left: 64px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.projetos {
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(235deg, blue 10%, blueviolet 90%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 32px;
+}
+.itens {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.itens a {
+  color: black;
+  text-decoration: none;
+}
+
+.dark {
+  background: #f7f7f7;
+}
+.dark .container {
+  background: blue;
+}
+.dark .titulo {
+  color: white;
+}
+.dark .tema button {
+  background: Black;
+  color: white;
+}
